@@ -4,3 +4,10 @@ num1 = float(input("ใส่ตัวเลขตัวที่ 1: "))
 num2 = float(input("ใส่ตัวเลขตัวที่ 2: "))
 
 print("ผลบวก =", num1 + num2)
+
+a = 5
+b = 3
+
+result = a + b
+
+print("ผลลัพธ์ =", result)
