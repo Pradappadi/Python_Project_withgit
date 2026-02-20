@@ -1,6 +1,10 @@
-print("=== Simple Calculator ===")
+a, b = map(int, input("find_number: ").split())
+a, b = int(a), int(b)
+try:
+    for i in range (a, b):
+        if i % 7 == 0:
+            print(i)
+except ValueError:
+    print("error")
 
-num1 = float(input("ใส่ตัวเลขตัวที่ 1: "))
-num2 = float(input("ใส่ตัวเลขตัวที่ 2: "))
-
-print("ผลบวก =", num1 + num2)
+ใส่ข้อมูลตัวแปรเลขจำนวนเต็ม 2 ค่า หากค่าระหว่าง 2 ถ้าค่าเหล่านี้หาร 7 ลงตัวให้ส่งตัวแปรออกมา
